@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ObservAr/libs/buffer/src/buffer&apos; to &apos;buffer.c&apos;" description="Rename resource &apos;buffer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="libs/buffer/src/buffer" name="buffer.c" stamp="1698335203406" updateReferences="true"/>
+</session>

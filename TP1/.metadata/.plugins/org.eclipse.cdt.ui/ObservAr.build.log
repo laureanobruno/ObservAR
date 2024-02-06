@@ -1,0 +1,20 @@
+23:52:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC buffer.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13272	    284	    264	  13820	   35fc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+
+23:53:05 Build Finished. 0 errors, 0 warnings. (took 8s.74ms)
+

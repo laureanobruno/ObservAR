@@ -1,0 +1,4049 @@
+20:42:54 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+CC armv7m_startup.c
+CC editline.c
+CC PLC_Registers.c
+CC PLC_IL_Instructions.c
+CC PLC_Lib.c
+CC PLC_Hardware.c
+CC PLC_OperatingSystem.c
+CC seos_pont_2014_isr.c
+CC seos_pont_2014_scheduler.c
+CC system.c
+CC board_sysinit.c
+CC board.c
+CC pinint_18xx_43xx.c
+CC otp_18xx_43xx.c
+CC gpio_18xx_43xx.c
+CC emc_18xx_43xx.c
+CC chip_18xx_43xx.c
+CC wwdt_18xx_43xx.c
+CC sdif_18xx_43xx.c
+CC spi_18xx_43xx.c
+CC i2s_18xx_43xx.c
+CC clock_18xx_43xx.c
+CC pmc_18xx_43xx.c
+CC ring_buffer.c
+CC stopwatch_18xx_43xx.c
+CC ssp_18xx_43xx.c
+CC uart_18xx_43xx.c
+CC enet_18xx_43xx.c
+CC i2c_18xx_43xx.c
+CC sdmmc_18xx_43xx.c
+CC timer_18xx_43xx.c
+CC ritimer_18xx_43xx.c
+CC sct_pwm_18xx_43xx.c
+CC adc_18xx_43xx.c
+CC sysinit_18xx_43xx.c
+CC iap_18xx_43xx.c
+CC i2cm_18xx_43xx.c
+CC evrt_18xx_43xx.c
+CC sct_18xx_43xx.c
+CC rtc_18xx_43xx.c
+CC gpdma_18xx_43xx.c
+CC atimer_18xx_43xx.c
+CC eeprom_18xx_43xx.c
+CC aes_18xx_43xx.c
+CC lcd_18xx_43xx.c
+CC dac_18xx_43xx.c
+CC sdio_18xx_43xx.c
+CC gpiogroup_18xx_43xx.c
+CC ccan_18xx_43xx.c
+CC vendor_interrupt.c
+CC sysinit.c
+CC crp.c
+CC sapi_datatypes.c
+CC sapi_sleep.c
+CC sapi_cyclesCounter.c
+CC sapi_gpio.c
+CC sapi_spi.c
+CC sapi_adc.c
+CC sapi_sct.c
+CC sapi_timer.c
+CC sapi_i2c.c
+CC sapi_tick.c
+CC sapi_rtc.c
+CC sapi_dac.c
+CC sapi_uart.c
+CC sapi_pwm.c
+CC cdc_uart.c
+CC usbd_keyboard.c
+CC sapi_usb_device.c
+CC sapi_board.c
+CC sapi_stdio.c
+CC sapi_convert.c
+CC sapi_print.c
+CC sapi_circularBuffer.c
+CC sapi_delay.c
+CC sapi_button.c
+CC lcd_greek_chars.c
+CC lcd_icon_chars.c
+CC sapi_lcd.c
+CC sapi_7_segment_display.c
+CC sapi_imu_mpu60X0.c
+CC sapi_imu_mpu9250.c
+CC sapi_keypad.c
+CC sapi_rgb.c
+CC sapi_magnetometer_hmc5883l.c
+CC sapi_magnetometer_qmc5883l.c
+CC sapi_eeprom24xx1025.c
+CC sapi_servo.c
+CC sapi_dht11.c
+CC sapi_ultrasonic_hcsr04.c
+CC sapi_esp8266.c
+DEBLOB libarm_cortexM4lf_math.hexlib
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9532	    176	     60	   9768	   2628	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+20:55:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9532	    176	     60	   9768	   2628	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+20:56:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9532	    176	     60	   9768	   2628	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+20:56:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9532	    176	     60	   9768	   2628	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+21:26:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9532	    176	     60	   9768	   2628	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+21:32:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+21:34:36 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+22:10:02 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+23:44:23 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+23:45:20 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+23:45:28 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+23:50:45 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:102:5: error: 'valor' undeclared (first use in this function); did you mean 'Color'?
+     valor = servoConfig(0, SERVO_ENABLE);
+     ^~~~~
+     Color
+examples/c/app/src/app.c:102:5: note: each undeclared identifier is reported only once for each function it appears in
+examples/c/app/src/app.c:125:13: error: expected identifier or '(' before '[' token
+         char[2] recievedString;
+             ^
+examples/c/app/src/app.c:131:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+examples/c/app/src/app.c:131:35: error: 'recievedString' undeclared (first use in this function); did you mean 'lcdSendString'?
+                 servoAngle = atoi(recievedString);
+                                   ^~~~~~~~~~~~~~
+                                   lcdSendString
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+23:51:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:102:5: error: 'valor' undeclared (first use in this function); did you mean 'Color'?
+     valor = servoConfig(0, SERVO_ENABLE);
+     ^~~~~
+     Color
+examples/c/app/src/app.c:102:5: note: each undeclared identifier is reported only once for each function it appears in
+examples/c/app/src/app.c:125:13: error: expected identifier or '(' before '[' token
+         char[2] recievedString = [0 0];
+             ^
+examples/c/app/src/app.c:131:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+examples/c/app/src/app.c:131:35: error: 'recievedString' undeclared (first use in this function); did you mean 'lcdSendString'?
+                 servoAngle = atoi(recievedString);
+                                   ^~~~~~~~~~~~~~
+                                   lcdSendString
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+23:52:18 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:102:5: error: 'valor' undeclared (first use in this function); did you mean 'Color'?
+     valor = servoConfig(0, SERVO_ENABLE);
+     ^~~~~
+     Color
+examples/c/app/src/app.c:102:5: note: each undeclared identifier is reported only once for each function it appears in
+examples/c/app/src/app.c:125:13: error: expected identifier or '(' before '[' token
+         char[2] recievedString = {0, 0};
+             ^
+examples/c/app/src/app.c:131:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+examples/c/app/src/app.c:131:35: error: 'recievedString' undeclared (first use in this function); did you mean 'lcdSendString'?
+                 servoAngle = atoi(recievedString);
+                                   ^~~~~~~~~~~~~~
+                                   lcdSendString
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+23:52:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:125:13: error: expected identifier or '(' before '[' token
+         char[2] recievedString = {0, 0};
+             ^
+examples/c/app/src/app.c:131:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+examples/c/app/src/app.c:131:35: error: 'recievedString' undeclared (first use in this function); did you mean 'lcdSendString'?
+                 servoAngle = atoi(recievedString);
+                                   ^~~~~~~~~~~~~~
+                                   lcdSendString
+examples/c/app/src/app.c:131:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+23:53:09 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:125:35: warning: excess elements in scalar initializer
+         char recievedString = {0, 0};
+                                   ^
+examples/c/app/src/app.c:125:35: note: (near initialization for 'recievedString')
+examples/c/app/src/app.c:131:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+examples/c/app/src/app.c:137:31: error: subscripted value is neither array nor pointer nor vector
+                 recievedString[i] = receivedByte;
+                               ^
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+00:01:23 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:132:30: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                 servoAngle = atoi(recievedString);
+                              ^~~~
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9148	    248	     40	   9436	   24dc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:02:28 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:02:45 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:05:49 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:05:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:08:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6996	     76	     40	   7112	   1bc8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:08:16 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6996	     76	     40	   7112	   1bc8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:09:19 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:09:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:09:34 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:11:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:11:41 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6988	     76	     40	   7104	   1bc0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:15:22 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:16:11 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:16:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:16:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+Command canceled
+00:17:00 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8444	    148	     40	   8632	   21b8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:17:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8444	    148	     40	   8632	   21b8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:17:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8444	    148	     40	   8632	   21b8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:17:52 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8444	    148	     40	   8632	   21b8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:18:34 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:18:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8564	    148	     40	   8752	   2230	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:21:18 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8684	    148	     40	   8872	   22a8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:21:28 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8684	    148	     40	   8872	   22a8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:22:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8684	    148	     40	   8872	   22a8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:22:39 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8684	    148	     40	   8872	   22a8	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:23:35 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:142:17: error: 'servoAngle' undeclared (first use in this function); did you mean 'servoWrite'?
+                 servoAngle = atoi(recievedString);
+                 ^~~~~~~~~~
+                 servoWrite
+examples/c/app/src/app.c:142:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+00:23:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6780	     76	     40	   6896	   1af0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:24:03 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   6780	     76	     40	   6896	   1af0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:26:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7020	     76	     40	   7136	   1be0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:26:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7228	     76	     40	   7344	   1cb0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:27:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7228	     76	     40	   7344	   1cb0	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:28:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8556	    148	     40	   8744	   2228	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:28:22 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8556	    148	     40	   8744	   2228	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:29:30 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8556	    148	     40	   8744	   2228	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:30:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8556	    148	     40	   8744	   2228	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:31:31 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:31:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:33:43 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:33:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:37:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:37:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8560	    148	     40	   8748	   222c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:38:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:39:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:40:29 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:40:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:41:49 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:41:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:43:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:44:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:45:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:46:03 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:48:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8644	    148	     40	   8832	   2280	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:49:17 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8660	    148	     40	   8848	   2290	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:49:30 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8656	    148	     40	   8844	   228c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:49:42 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8656	    148	     40	   8844	   228c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:51:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8664	    148	     40	   8852	   2294	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:52:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8664	    148	     40	   8852	   2294	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:52:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8680	    148	     40	   8868	   22a4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:52:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8680	    148	     40	   8868	   22a4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:53:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8680	    148	     40	   8868	   22a4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:55:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8680	    148	     40	   8868	   22a4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:55:21 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8680	    148	     40	   8868	   22a4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:56:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:56:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:57:03 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:57:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+00:59:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+01:00:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8712	    148	     40	   8900	   22c4	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:30:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:157:17: error: 'servoAngle' undeclared (first use in this function); did you mean 'servoWrite'?
+                 servoAngle = atoi(recievedString);
+                 ^~~~~~~~~~
+                 servoWrite
+examples/c/app/src/app.c:157:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+12:30:55 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:157:17: error: 'servoAngle' undeclared (first use in this function); did you mean 'servoWrite'?
+                 servoAngle = atoi(recievedString);
+                 ^~~~~~~~~~
+                 servoWrite
+examples/c/app/src/app.c:157:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+12:31:21 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+examples/c/app/src/app.c: In function 'main':
+examples/c/app/src/app.c:157:17: error: 'servoAngle' undeclared (first use in this function); did you mean 'servoWrite'?
+                 servoAngle = atoi(recievedString);
+                 ^~~~~~~~~~
+                 servoWrite
+examples/c/app/src/app.c:157:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/app/out/examples/c/app/src/app.o] Error 1
+12:32:02 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7336	     76	     40	   7452	   1d1c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:32:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7336	     76	     40	   7452	   1d1c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:33:03 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7336	     76	     40	   7452	   1d1c	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:35:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8664	    148	     40	   8852	   2294	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:35:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8664	    148	     40	   8852	   2294	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:40:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8652	    148	     40	   8840	   2288	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:40:39 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8652	    148	     40	   8840	   2288	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:41:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8660	    148	     40	   8848	   2290	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:42:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8660	    148	     40	   8848	   2290	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:44:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8660	    148	     40	   8848	   2290	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:46:30 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:46:52 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:49:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:50:18 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:51:43 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+12:52:05 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+13:00:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC app.c
+LD params
+LD examples/c/app/out/app.elf...
+COPY app.elf TO app.bin
+COPY app.elf TO app.hex
+LIST
+NAME
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+13:00:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF app.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8464	    148	     40	   8652	   21cc	examples/c/app/out/app.elf
+
+Selected program: examples/c/app
+Selected board: edu_ciaa_nxp
+13:01:45 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+CC armv7m_startup.c
+CC editline.c
+CC PLC_Registers.c
+CC PLC_IL_Instructions.c
+CC PLC_Lib.c
+CC PLC_Hardware.c
+CC PLC_OperatingSystem.c
+CC seos_pont_2014_isr.c
+CC seos_pont_2014_scheduler.c
+CC system.c
+CC board_sysinit.c
+CC board.c
+CC pinint_18xx_43xx.c
+CC otp_18xx_43xx.c
+CC gpio_18xx_43xx.c
+CC emc_18xx_43xx.c
+CC chip_18xx_43xx.c
+CC wwdt_18xx_43xx.c
+CC sdif_18xx_43xx.c
+CC spi_18xx_43xx.c
+CC i2s_18xx_43xx.c
+CC clock_18xx_43xx.c
+CC pmc_18xx_43xx.c
+CC ring_buffer.c
+CC stopwatch_18xx_43xx.c
+CC ssp_18xx_43xx.c
+CC uart_18xx_43xx.c
+CC enet_18xx_43xx.c
+CC i2c_18xx_43xx.c
+CC sdmmc_18xx_43xx.c
+CC timer_18xx_43xx.c
+CC ritimer_18xx_43xx.c
+CC sct_pwm_18xx_43xx.c
+CC adc_18xx_43xx.c
+CC sysinit_18xx_43xx.c
+CC iap_18xx_43xx.c
+CC i2cm_18xx_43xx.c
+CC evrt_18xx_43xx.c
+CC sct_18xx_43xx.c
+CC rtc_18xx_43xx.c
+CC gpdma_18xx_43xx.c
+CC atimer_18xx_43xx.c
+CC eeprom_18xx_43xx.c
+CC aes_18xx_43xx.c
+CC lcd_18xx_43xx.c
+CC dac_18xx_43xx.c
+CC sdio_18xx_43xx.c
+CC gpiogroup_18xx_43xx.c
+CC ccan_18xx_43xx.c
+CC vendor_interrupt.c
+CC sysinit.c
+CC crp.c
+CC sapi_datatypes.c
+CC sapi_sleep.c
+CC sapi_cyclesCounter.c
+CC sapi_gpio.c
+CC sapi_spi.c
+CC sapi_adc.c
+CC sapi_sct.c
+CC sapi_timer.c
+CC sapi_i2c.c
+CC sapi_tick.c
+CC sapi_rtc.c
+CC sapi_dac.c
+CC sapi_uart.c
+CC sapi_pwm.c
+CC cdc_uart.c
+CC usbd_keyboard.c
+CC sapi_usb_device.c
+CC sapi_board.c
+CC sapi_stdio.c
+CC sapi_convert.c
+CC sapi_print.c
+CC sapi_circularBuffer.c
+CC sapi_delay.c
+CC sapi_button.c
+CC lcd_greek_chars.c
+CC lcd_icon_chars.c
+CC sapi_lcd.c
+CC sapi_7_segment_display.c
+CC sapi_imu_mpu60X0.c
+CC sapi_imu_mpu9250.c
+CC sapi_keypad.c
+CC sapi_rgb.c
+CC sapi_magnetometer_hmc5883l.c
+CC sapi_magnetometer_qmc5883l.c
+CC sapi_eeprom24xx1025.c
+CC sapi_servo.c
+CC sapi_dht11.c
+CC sapi_ultrasonic_hcsr04.c
+CC sapi_esp8266.c
+DEBLOB libarm_cortexM4lf_math.hexlib
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9116	    284	     64	   9464	   24f8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:04:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9116	    284	     64	   9464	   24f8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:05:17 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9312	    284	     64	   9660	   25bc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:05:38 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9312	    284	     64	   9660	   25bc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:07:05 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9236	    284	     64	   9584	   2570	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:07:33 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9236	    284	     64	   9584	   2570	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:09:02 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9236	    284	     64	   9584	   2570	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:10:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:273:10: error: unknown type name 'string'; did you mean 'stdin'?
+          string where we'll store the characters received
+          ^~~~~~
+          stdin
+examples/c/sapi/servo/src/servo.c:273:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'we'
+          string where we'll store the characters received
+                       ^~
+examples/c/sapi/servo/src/servo.c:273:25: warning: missing terminating ' character
+          string where we'll store the characters received
+                         ^
+examples/c/sapi/servo/src/servo.c:273:25: error: missing terminating ' character
+          string where we'll store the characters received
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:280:35: error: 'recievedString' undeclared (first use in this function); did you mean 'lcdSendString'?
+                 servoAngle = atoi(recievedString);
+                                   ^~~~~~~~~~~~~~
+                                   lcdSendString
+examples/c/sapi/servo/src/servo.c:280:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+13:11:42 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:12:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:13:43 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:14:11 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:19:27 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:20:52 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:21:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7932	    212	     64	   8208	   2010	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:22:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7932	    212	     64	   8208	   2010	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:25:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:26:04 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:28:48 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9216	    284	     64	   9564	   255c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:29:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9216	    284	     64	   9564	   255c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+01:29:20 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9216	    284	     64	   9564	   255c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:26:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9216	    284	     64	   9564	   255c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:04:16 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:04:55 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:19:42 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9188	    284	     64	   9536	   2540	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:22:00 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9188	    284	     64	   9536	   2540	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:23:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9188	    284	     64	   9536	   2540	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:24:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c:136:11: fatal error: app.h: No such file or directory
+  #include "app.h"         // <= Su propia cabecera
+           ^~~~~~~
+compilation terminated.
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+12:24:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  10200	    312	     84	  10596	   2964	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:25:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:92:4: warning: implicit declaration of function 'boardConfig' [-Wimplicit-function-declaration]
+    boardConfig();
+    ^~~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:94:4: error: unknown type name 'bool_t'
+    bool_t valor = 0;
+    ^~~~~~
+examples/c/sapi/servo/src/servo.c:96:4: error: unknown type name 'uint8_t'
+    uint8_t servoAngle = 0; // 0 a 180 grados
+    ^~~~~~~
+examples/c/sapi/servo/src/servo.c:99:12: warning: implicit declaration of function 'servoConfig' [-Wimplicit-function-declaration]
+    valor = servoConfig( 0, SERVO_ENABLE );
+            ^~~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:99:28: error: 'SERVO_ENABLE' undeclared (first use in this function)
+    valor = servoConfig( 0, SERVO_ENABLE );
+                            ^~~~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:99:28: note: each undeclared identifier is reported only once for each function it appears in
+examples/c/sapi/servo/src/servo.c:101:25: error: 'SERVO_N' undeclared (first use in this function)
+    valor = servoConfig( SERVO_N, SERVO_ENABLE_OUTPUT );
+                         ^~~~~~~
+examples/c/sapi/servo/src/servo.c:101:34: error: 'SERVO_ENABLE_OUTPUT' undeclared (first use in this function)
+    valor = servoConfig( SERVO_N, SERVO_ENABLE_OUTPUT );
+                                  ^~~~~~~~~~~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:104:12: warning: implicit declaration of function 'servoWrite' [-Wimplicit-function-declaration]
+    valor = servoWrite( SERVO_N, servoAngle );
+            ^~~~~~~~~~
+examples/c/sapi/servo/src/servo.c:105:17: warning: implicit declaration of function 'servoRead' [-Wimplicit-function-declaration]
+    servoAngle = servoRead( SERVO_N );
+                 ^~~~~~~~~
+examples/c/sapi/servo/src/servo.c:107:4: warning: implicit declaration of function 'gpioWrite' [-Wimplicit-function-declaration]
+    gpioWrite( LEDB, 1 );
+    ^~~~~~~~~
+examples/c/sapi/servo/src/servo.c:107:15: error: 'LEDB' undeclared (first use in this function)
+    gpioWrite( LEDB, 1 );
+               ^~~~
+examples/c/sapi/servo/src/servo.c:112:7: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+       delay(500);
+       ^~~~~
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+12:26:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8920	    284	     64	   9268	   2434	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:26:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8920	    284	     64	   9268	   2434	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:27:45 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   8920	    284	     64	   9268	   2434	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:36:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:37:21 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:37:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9336	    284	     64	   9684	   25d4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:28:52 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:285:33: error: expected ';' before 'i'
+                 gpioToggle(LED1)
+                                 ^
+                                 ;
+                 i = 0;
+                 ~                
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+12:29:41 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9340	    284	     64	   9688	   25d8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:30:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9340	    284	     64	   9688	   25d8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:31:39 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9340	    284	     64	   9688	   25d8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:41:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9340	    284	     64	   9688	   25d8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:46:17 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9264	    284	     64	   9612	   258c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:46:31 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9264	    284	     64	   9612	   258c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:48:43 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:285:17: warning: implicit declaration of function 'uartWrite'; did you mean 'uartTxWrite'? [-Wimplicit-function-declaration]
+                 uartWrite(UART_USB, recievedString);
+                 ^~~~~~~~~
+                 uartTxWrite
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+c:/ciaa/ciaa_software_1.1-win/tools/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o: in function `main':
+C:\CIAA\FirmwareV/examples/c/sapi/servo/src/servo.c:285: undefined reference to `uartWrite'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:193: examples/c/sapi/servo/out/servo.elf] Error 1
+12:49:16 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9376	    284	     64	   9724	   25fc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:49:31 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9376	    284	     64	   9724	   25fc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:51:13 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9368	    284	     64	   9716	   25f4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:51:20 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9368	    284	     64	   9716	   25f4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:54:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9348	    284	     64	   9696	   25e0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:55:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:285:43: warning: passing argument 2 of 'uartWriteString' makes pointer from integer without a cast [-Wint-conversion]
+                 uartWriteString(UART_USB, servoAngle);
+                                           ^~~~~~~~~~
+In file included from libs/sapi/sapi_v0.5.2/base/inc/sapi.h:50,
+                 from examples/c/sapi/servo/src/servo.c:237:
+libs/sapi/sapi_v0.5.2/soc/peripherals/inc/sapi_uart.h:158:51: note: expected 'const char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+ void uartWriteString( uartMap_t uart, const char* str );
+                                       ~~~~~~~~~~~~^~~
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9372	    284	     64	   9720	   25f8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:58:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9288	    284	     64	   9636	   25a4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:59:00 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9300	    284	     64	   9648	   25b0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:59:48 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9288	    284	     64	   9636	   25a4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:04:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9288	    284	     64	   9636	   25a4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:06:44 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:269:38: error: 'receivedString' undeclared (first use in this function); did you mean 'recievedString'?
+              uartWriteByte(UART_USB, receivedString[0]);
+                                      ^~~~~~~~~~~~~~
+                                      recievedString
+examples/c/sapi/servo/src/servo.c:269:38: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+13:07:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9300	    284	     64	   9648	   25b0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:55:28 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9288	    284	     64	   9636	   25a4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:55:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9288	    284	     64	   9636	   25a4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:03:30 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9284	    284	     64	   9632	   25a0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:06:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9296	    284	     64	   9644	   25ac	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:13:52 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9284	    284	     64	   9632	   25a0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:18:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:269:34: warning: multi-character character constant [-Wmultichar]
+              receivedString[i] = '/0';
+                                  ^~~~
+examples/c/sapi/servo/src/servo.c:269:34: warning: unsigned conversion from 'int' to 'char' changes value from '12080' to '48' [-Woverflow]
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:19:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9324	    284	     64	   9672	   25c8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:21:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9332	    284	     64	   9680	   25d0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:25:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9352	    284	     64	   9700	   25e4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:27:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9352	    284	     64	   9700	   25e4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:28:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9340	    284	     64	   9688	   25d8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:35:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11404	    284	     64	  11752	   2de8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:44:00 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11408	    284	     64	  11756	   2dec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:46:37 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11408	    284	     64	  11756	   2dec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:59:21 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+CC buffer.c
+In file included from libs/buffer//src/buffer.c:8:
+libs/buffer//inc/buffer.h:21:1: error: unknown type name 'bool_t'
+ bool_t bufferIsFull();
+ ^~~~~~
+libs/buffer//inc/buffer.h:23:1: error: unknown type name 'bool_t'
+ bool_t bufferIsEmpty();
+ ^~~~~~
+libs/buffer//src/buffer.c:45:1: error: unknown type name 'bool_t'
+ bool_t bufferIsFull(){
+ ^~~~~~
+libs/buffer//src/buffer.c:49:1: error: unknown type name 'bool_t'
+ bool_t bufferIsEmpty(){
+ ^~~~~~
+make: *** [makefile:164: examples/c/sapi/servo/out/libs/buffer//src/buffer.o] Error 1
+13:00:27 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+CC buffer.c
+libs/buffer//src/buffer.c:45:1: error: unknown type name 'bool_t'
+ bool_t bufferIsFull(){
+ ^~~~~~
+libs/buffer//src/buffer.c:45:8: error: conflicting types for 'bufferIsFull'
+ bool_t bufferIsFull(){
+        ^~~~~~~~~~~~
+In file included from libs/buffer//src/buffer.c:8:
+libs/buffer//inc/buffer.h:21:9: note: previous declaration of 'bufferIsFull' was here
+ uint8_t bufferIsFull();
+         ^~~~~~~~~~~~
+libs/buffer//src/buffer.c:49:1: error: unknown type name 'bool_t'
+ bool_t bufferIsEmpty(){
+ ^~~~~~
+libs/buffer//src/buffer.c:49:8: error: conflicting types for 'bufferIsEmpty'
+ bool_t bufferIsEmpty(){
+        ^~~~~~~~~~~~~
+In file included from libs/buffer//src/buffer.c:8:
+libs/buffer//inc/buffer.h:23:9: note: previous declaration of 'bufferIsEmpty' was here
+ uint8_t bufferIsEmpty();
+         ^~~~~~~~~~~~~
+make: *** [makefile:164: examples/c/sapi/servo/out/libs/buffer//src/buffer.o] Error 1
+13:01:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC buffer.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11408	    284	     64	  11756	   2dec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:05:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:05:35 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:05:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:06:04 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:11:07 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:12:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:13:18 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    212	     64	   7732	   1e34	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:50:26 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+CC buffer.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11816	    284	     76	  12176	   2f90	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:55:17 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11816	    284	     76	  12176	   2f90	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:57:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11816	    284	     76	  12176	   2f90	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:58:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11896	    284	     76	  12256	   2fe0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:59:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11816	    284	     76	  12176	   2f90	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:02:10 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11816	    284	     76	  12176	   2f90	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:02:38 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11824	    284	     76	  12184	   2f98	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:03:49 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11824	    284	     76	  12184	   2f98	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:04:50 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9656	    284	     76	  10016	   2720	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:06:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9736	    284	     76	  10096	   2770	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:14:15 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  12160	    312	     84	  12556	   310c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:14:56 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  12160	    312	     84	  12556	   310c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:20:09 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  12160	    312	     84	  12556	   310c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:21:39 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  12160	    312	     84	  12556	   310c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:24:20 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11904	    284	     76	  12264	   2fe8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:27:00 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:34:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11908	    284	     76	  12268	   2fec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:35:02 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:36:16 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11908	    284	     76	  12268	   2fec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:37:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:42:29 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:42:42 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:45:29 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:46:46 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11896	    284	     76	  12256	   2fe0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:49:41 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11904	    284	     76	  12264	   2fe8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+13:54:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:07:41 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+14:09:50 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:82:33: error: 'rotacion' undeclared (first use in this function)
+             servoWrite(SERVO_N, rotacion);
+                                 ^~~~~~~~
+examples/c/sapi/servo/src/servo.c:82:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+14:10:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+   9876	    284	     76	  10236	   27fc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:17:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:19:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:20:58 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:23:04 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11912	    284	     76	  12272	   2ff0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:29:06 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:32:00 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+Command canceled
+11:32:13 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11924	    284	     76	  12284	   2ffc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:33:48 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11900	    284	     76	  12260	   2fe4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:38:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11908	    284	     76	  12268	   2fec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:44:15 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11832	    284	     76	  12192	   2fa0	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:47:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:80:53: error: expected ',' or ';' before ')' token
+             uint8_t rotacion = (44 - valor) * (4.09));
+                                                     ^
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+11:48:17 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:80:53: error: expected ',' or ';' before ')' token
+             uint8_t rotacion = (44 - valor) * (4.09));
+                                                     ^
+make: *** [makefile:164: examples/c/sapi/servo/out/examples/c/sapi/servo/src/servo.o] Error 1
+11:48:30 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11840	    284	     76	  12200	   2fa8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+11:48:45 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11840	    284	     76	  12200	   2fa8	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:20:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11964	    284	     76	  12324	   3024	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:21:34 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11964	    284	     76	  12324	   3024	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+12:21:36 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11964	    284	     76	  12324	   3024	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+16:52:51 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:96:32: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+                 uint8_t alfa = atan(abs(valor - 32) * 0.024);
+                                ^~~~
+examples/c/sapi/servo/src/servo.c:96:32: warning: incompatible implicit declaration of built-in function 'atan'
+examples/c/sapi/servo/src/servo.c:96:32: note: include '<math.h>' or provide a declaration of 'atan'
+examples/c/sapi/servo/src/servo.c:14:1:
++#include <math.h>
+ 
+examples/c/sapi/servo/src/servo.c:96:32:
+                 uint8_t alfa = atan(abs(valor - 32) * 0.024);
+                                ^~~~
+examples/c/sapi/servo/src/servo.c:96:37: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+                 uint8_t alfa = atan(abs(valor - 32) * 0.024);
+                                     ^~~
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+Command canceled
+16:54:05 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+examples/c/sapi/servo/src/servo.c: In function 'main':
+examples/c/sapi/servo/src/servo.c:97:37: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+                 uint8_t alfa = atan(abs(valor - 32) * 0.024);
+                                     ^~~
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+Command canceled
+16:56:17 **** Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+16:57:32 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+16:58:21 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+16:59:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+18:30:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+18:32:33 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+18:33:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+18:33:31 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+18:33:53 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:23:48 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	     76	  13576	   3508	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:34:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13224	    284	     76	  13584	   3510	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:34:14 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13224	    284	     76	  13584	   3510	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:40:42 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13248	    284	     76	  13608	   3528	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:46:49 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13248	    284	     76	  13608	   3528	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+19:51:54 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+20:04:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11976	    284	     76	  12336	   3030	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+20:07:22 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11976	    284	     76	  12336	   3030	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+20:18:51 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11988	    284	     76	  12348	   303c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+20:34:15 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+22:40:39 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+22:44:52 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  11988	    284	     76	  12348	   303c	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+22:50:24 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+22:59:50 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:00:12 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:00:34 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13264	    284	     76	  13624	   3538	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:03:40 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13288	    284	     76	  13648	   3550	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:19:09 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13288	    284	     76	  13648	   3550	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:20:01 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13288	    284	     76	  13648	   3550	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:29:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13288	    284	     76	  13648	   3550	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:31:13 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13288	    284	     76	  13648	   3550	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:36:08 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC buffer.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13224	    284	   1064	  14572	   38ec	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:44:13 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13232	    284	   1064	  14580	   38f4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:48:25 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC servo.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	   1064	  14564	   38e4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:48:59 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13216	    284	   1064	  14564	   38e4	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
+23:52:57 **** Incremental Build of configuration Default for project ObservAr ****
+make 
+Using optimization level g
+Using newlib nano. No printf with floats supported
+CC buffer.c
+LD params
+LD examples/c/sapi/servo/out/servo.elf...
+COPY servo.elf TO servo.bin
+COPY servo.elf TO servo.hex
+LIST
+NAME
+SIZEOF servo.elf...
+   text	   data	    bss	    dec	    hex	filename
+  13272	    284	    264	  13820	   35fc	examples/c/sapi/servo/out/servo.elf
+
+Selected program: examples/c/sapi/servo
+Selected board: edu_ciaa_nxp
