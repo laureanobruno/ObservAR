@@ -1,15 +1,6 @@
 #define SERVO_N SERVO1
-//   SERVO0 <---> T_FIL1 de EDU-CIAA-NXP
-//   SERVO1 <---> T_COL0 de EDU-CIAA-NXP
-//   SERVO2 <---> T_FIL2 de EDU-CIAA-NXP
-//   SERVO3 <---> T_FIL3 de EDU-CIAA-NXP
-//   SERVO4 <---> GPIO8 de EDU-CIAA-NXP
-//   SERVO5 <---> LCD1 de EDU-CIAA-NXP
-//   SERVO6 <---> LCD2 de EDU-CIAA-NXP
-//   SERVO7 <---> LCD3 de EDU-CIAA-NXP
-//   SERVO8 <---> GPIO2 de EDU-CIAA-NXP
 
-#include "sapi.h" // <= sAPI header
+#include "sapi.h"
 #include "buffer.h"
 #include <math.h>
 #include <stdlib.h>
@@ -46,12 +37,6 @@ void main(void)
     bool_t servoConfig = initializeServo();
 
 
-    /*gpioConfig(GPIO6, GPIO_INPUT_PULLUP); // Configura el GPIO0 como entrada con pull-up interno
-
-    if (!gpioRead(GPIO6)){
-        gpioToggle(LED1);
-    }*/
-
     bool_t moving = 1; // Flag de movimiento e interrupciones de UART
     servoWrite(SERVO_N, 90);
     uint8_t anguloAct = 90;
@@ -87,12 +72,10 @@ void main(void)
                 uint8_t c = bufferPop();
                 while (c != '\r')
                 {
-                    // uartWriteByte(UART_USB, c); // for debugging
                     valor = (valor * 10) + (c - '0');
                     c = bufferPop();
                 }
 
-                //uartWriteByte(UART_USB, valor);
                 if (valor == 176) gpioToggle(LEDB);
                 else
                 {
@@ -104,25 +87,20 @@ void main(void)
 
 					if (((anguloAct + alfa) >= 0) && ((anguloAct + alfa) <= 180))  anguloAct += alfa;
 
-					//anguloAct = (44 - valor) * 4.09;
 					servoWrite(SERVO_N, anguloAct);
-
-					//uint8_t rotacion = ((44 - valor) * (4.09));
-					//servoWrite(SERVO_N, rotacion);
 
 					gpioToggle(LED3);
                 }
                 stringReceived -= 1;
             }
-            // delay(200);
         }
     }
 }
 
 void initializeUART()
 {
-    uartConfig(UART_USB, 9600);   // Initialize UART_USB at 115200 baud rate
-    uartConfig(UART_232, 115200); // Initialize UART_232 (which we'll use for communication) at 115200 baud rate
+    uartConfig(UART_USB, 9600);   // Initialize UART_USB
+    uartConfig(UART_232, 115200); // Initialize UART_232
     // Seteo un callback al evento de recepcion y habilito su interrupcion
     uartCallbackSet(UART_232, UART_RECEIVE, onRx, NULL);
     // Habilito todas las interrupciones de UART_USB
