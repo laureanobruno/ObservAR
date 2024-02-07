@@ -1,0 +1,293 @@
+examples/c/sapi/servo/out/servo.elf:1a0019d8 000000a4 t uartProcessIRQ
+examples/c/sapi/servo/out/servo.elf:10000134 00000004 b rxIsrCallbackUART0
+examples/c/sapi/servo/out/servo.elf:10000138 00000004 b rxIsrCallbackUART2
+examples/c/sapi/servo/out/servo.elf:1000013c 00000004 b rxIsrCallbackUART3
+examples/c/sapi/servo/out/servo.elf:10000140 00000004 b txIsrCallbackUART0
+examples/c/sapi/servo/out/servo.elf:10000144 00000004 b txIsrCallbackUART2
+examples/c/sapi/servo/out/servo.elf:10000148 00000004 b txIsrCallbackUART3
+examples/c/sapi/servo/out/servo.elf:1a003334 00000048 t lpcUarts
+examples/c/sapi/servo/out/servo.elf:1a0030a4 00000004 t InitClkStates
+examples/c/sapi/servo/out/servo.elf:1a0030a8 00000074 t pinmuxing
+examples/c/sapi/servo/out/servo.elf:1a0006a8 00000044 t Board_LED_Init
+examples/c/sapi/servo/out/servo.elf:1a0006ec 00000040 t Board_TEC_Init
+examples/c/sapi/servo/out/servo.elf:1a00072c 00000040 t Board_GPIO_Init
+examples/c/sapi/servo/out/servo.elf:1a00076c 00000030 t Board_ADC_Init
+examples/c/sapi/servo/out/servo.elf:1a00079c 00000038 t Board_SPI_Init
+examples/c/sapi/servo/out/servo.elf:1a0007d4 00000024 t Board_I2C_Init
+examples/c/sapi/servo/out/servo.elf:1a003120 00000008 t GpioButtons
+examples/c/sapi/servo/out/servo.elf:1a003128 0000000c t GpioLeds
+examples/c/sapi/servo/out/servo.elf:1a003134 00000012 t GpioPorts
+examples/c/sapi/servo/out/servo.elf:1a000854 00000014 t Chip_SSP_GetClockIndex
+examples/c/sapi/servo/out/servo.elf:1a000868 00000018 t Chip_SSP_GetPeriphClockIndex
+examples/c/sapi/servo/out/servo.elf:10000000 00000038 d i2c
+examples/c/sapi/servo/out/servo.elf:1a000988 0000002c t Chip_TIMER_GetClockIndex
+examples/c/sapi/servo/out/servo.elf:1a0009d8 00000014 t Chip_ADC_GetClockIndex
+examples/c/sapi/servo/out/servo.elf:1a0009ec 00000032 t getClkDiv
+examples/c/sapi/servo/out/servo.elf:1a00314c 00000048 t InitClkStates
+examples/c/sapi/servo/out/servo.elf:1a000c0c 000000a0 t pll_calc_divs
+examples/c/sapi/servo/out/servo.elf:1a000cac 0000010c t pll_get_frac
+examples/c/sapi/servo/out/servo.elf:1a000db8 0000004c t Chip_Clock_FindBaseClock
+examples/c/sapi/servo/out/servo.elf:1a00102c 00000022 t Chip_Clock_GetDivRate
+examples/c/sapi/servo/out/servo.elf:1000011c 00000008 b audio_usb_pll_freq
+examples/c/sapi/servo/out/servo.elf:1a0031a0 0000006c t periph_to_base
+examples/c/sapi/servo/out/servo.elf:1a001198 0000002c t Chip_UART_GetIndex
+examples/c/sapi/servo/out/servo.elf:1a00320c 00000008 t UART_BClock
+examples/c/sapi/servo/out/servo.elf:1a003214 00000008 t UART_PClock
+examples/c/sapi/servo/out/servo.elf:10000038 00000004 d ClockSpeed
+examples/c/sapi/servo/out/servo.elf:1a001388 00000034 t gpioObtainPinInit
+examples/c/sapi/servo/out/servo.elf:1a001650 00000002 t errorOcurred
+examples/c/sapi/servo/out/servo.elf:1a001652 00000002 t doNothing
+examples/c/sapi/servo/out/servo.elf:1000003c 00000040 d timer_dd
+examples/c/sapi/servo/out/servo.elf:1a003304 00000030 t timer_sd
+examples/c/sapi/servo/out/servo.elf:10000124 00000004 b callBackFuncParams
+examples/c/sapi/servo/out/servo.elf:10000128 00000008 b tickCounter
+examples/c/sapi/servo/out/servo.elf:10000130 00000004 b tickHookFunction
+examples/c/sapi/servo/out/servo.elf:1000014c 00000004 b g_hUsb
+examples/c/sapi/servo/out/servo.elf:10000088 00000048 d AttachedServoList
+examples/c/sapi/servo/out/servo.elf:1a00337c 00000009 t servoMap
+examples/c/sapi/servo/out/servo.elf:1a002054 00000010 t clearInterrupt
+examples/c/sapi/servo/out/servo.elf:1a002064 0000005c t serveInterrupt
+examples/c/sapi/servo/out/servo.elf:100000d0 00000048 d ultrasonicSensors
+examples/c/sapi/servo/out/servo.elf:1a003388 00000003 t ultrasonicSensorsIrqMap
+examples/c/sapi/servo/out/servo.elf:1a003390 00000020 t atanhi
+examples/c/sapi/servo/out/servo.elf:1a0033b0 00000020 t atanlo
+examples/c/sapi/servo/out/servo.elf:1a0033d4 t __init_array_end
+examples/c/sapi/servo/out/servo.elf:1a0033d0 b __preinit_array_end
+examples/c/sapi/servo/out/servo.elf:1a0033d0 t __init_array_start
+examples/c/sapi/servo/out/servo.elf:1a0033d0 b __preinit_array_start
+examples/c/sapi/servo/out/servo.elf:1a000e50 0000001c T Chip_Clock_GetDividerSource
+examples/c/sapi/servo/out/servo.elf:1a002cbc 00000012 T __aeabi_dcmple
+examples/c/sapi/servo/out/servo.elf:1a001890 00000044 T TIMER2_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a001bb0 00000014 T uartRxRead
+examples/c/sapi/servo/out/servo.elf:1a002bf8 0000007a T __cmpdf2
+examples/c/sapi/servo/out/servo.elf:1a002438 00000012 T fabs
+examples/c/sapi/servo/out/servo.elf:1a000184 00000002 W DebugMon_Handler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W RIT_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a080000 A __top_MFlashA512
+examples/c/sapi/servo/out/servo.elf:1a002bf8 0000007a T __eqdf2
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000114 T __section_table_start
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a002768 0000005a T __floatdidf
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W I2C0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0004e4 00000034 T bufferPush
+examples/c/sapi/servo/out/servo.elf:1a00084c 00000008 T __stdio_init
+examples/c/sapi/servo/out/servo.elf:1a00017a 00000002 W HardFault_Handler
+examples/c/sapi/servo/out/servo.elf:1a000000 A __vectors_start__
+examples/c/sapi/servo/out/servo.elf:1a000a92 0000000c T Chip_ADC_SetResolution
+examples/c/sapi/servo/out/servo.elf:1a0019ac 0000002c T SysTick_Handler
+examples/c/sapi/servo/out/servo.elf:1a002008 00000024 T servoInit
+examples/c/sapi/servo/out/servo.elf:1a001218 00000040 T Chip_UART_SetBaud
+examples/c/sapi/servo/out/servo.elf:1a000568 00000002 W initialise_monitor_handles
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SDIO_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a001d84 0000001c T timer2CompareMatch2func
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000186 00000002 W PendSV_Handler
+examples/c/sapi/servo/out/servo.elf:1a000178 00000002 W NMI_Handler
+examples/c/sapi/servo/out/servo.elf:1a0033dc R __exidx_end
+examples/c/sapi/servo/out/servo.elf:1a000150 T __data_section_table_end
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W I2C1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W UART1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a002be8 0000008a T __gtdf2
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W CAN1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:53ff7322 A __valid_user_code_checksum
+examples/c/sapi/servo/out/servo.elf:1a0033dc R _etext
+examples/c/sapi/servo/out/servo.elf:1a002c84 00000010 T __aeabi_cdcmple
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W USB1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W I2S0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0018d4 00000044 T TIMER3_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0010ce 0000000c T Chip_Clock_GetBaseClocktHz
+examples/c/sapi/servo/out/servo.elf:1a001f80 00000058 T servoAttach
+examples/c/sapi/servo/out/servo.elf:1a0001bc 0000000a T UART0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001a8 00000012 T bss_init
+examples/c/sapi/servo/out/servo.elf:1a0009c0 00000018 T Chip_TIMER_Reset
+examples/c/sapi/servo/out/servo.elf:1a002c74 00000020 T __aeabi_cdrcmple
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0026f0 00000022 T __floatsidf
+examples/c/sapi/servo/out/servo.elf:1a002bf0 00000082 T __ltdf2
+examples/c/sapi/servo/out/servo.elf:1a000368 0000001c T BTN_config
+examples/c/sapi/servo/out/servo.elf:1a002d48 T __aeabi_uldivmod
+examples/c/sapi/servo/out/servo.elf:10000220 ? _noinit
+examples/c/sapi/servo/out/servo.elf:10000218 00000004 B SystemCoreClock
+examples/c/sapi/servo/out/servo.elf:1a000300 00000024 T onRx
+examples/c/sapi/servo/out/servo.elf:1a0011c4 00000054 T Chip_UART_Init
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W ADC0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000180 00000002 W UsageFault_Handler
+examples/c/sapi/servo/out/servo.elf:1a00114c 0000004c T Chip_Clock_GetRate
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a001df4 0000001c T timer3CompareMatch3func
+examples/c/sapi/servo/out/servo.elf:1a000630 0000006c T Board_SetupClocking
+examples/c/sapi/servo/out/servo.elf:20008000 A __top_RamAHB32
+examples/c/sapi/servo/out/servo.elf:1a0026d0 0000001e T __aeabi_ui2d
+examples/c/sapi/servo/out/servo.elf:1a001fd8 00000030 T servoDetach
+examples/c/sapi/servo/out/servo.elf:1a002d78 000002d0 T __udivmoddi4
+examples/c/sapi/servo/out/servo.elf:1a00244c T __aeabi_drsub
+examples/c/sapi/servo/out/servo.elf:1a00311c 00000004 T ExtRateIn
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W IntDefaultHandler
+examples/c/sapi/servo/out/servo.elf:1a001d14 0000001c T timer1CompareMatch1func
+examples/c/sapi/servo/out/servo.elf:1a000300 T __CRP_WORD_END__
+examples/c/sapi/servo/out/servo.elf:1a002ca8 00000012 T __aeabi_dcmplt
+examples/c/sapi/servo/out/servo.elf:1a0020ca 0000000a T GPIO1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:10000118 00000001 B stringReceived
+examples/c/sapi/servo/out/servo.elf:1a002714 00000042 T __extendsfdf2
+examples/c/sapi/servo/out/servo.elf:1a002a18 000001d0 T __aeabi_ddiv
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SSP0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a002458 00000276 T __adddf3
+examples/c/sapi/servo/out/servo.elf:1a0033d4 R __exidx_start
+examples/c/sapi/servo/out/servo.elf:1a0027c4 00000254 T __aeabi_dmul
+examples/c/sapi/servo/out/servo.elf:1a0002fc 00000004 T CRP_WORD
+examples/c/sapi/servo/out/servo.elf:1a00304c 00000048 T __libc_init_array
+examples/c/sapi/servo/out/servo.elf:1a000324 00000030 T initializeUART
+examples/c/sapi/servo/out/servo.elf:1a0026d0 0000001e T __floatunsidf
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W ADC1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a00081c 00000030 T Board_Init
+examples/c/sapi/servo/out/servo.elf:1a0005f6 00000002 W _init
+examples/c/sapi/servo/out/servo.elf:1a000114 T __data_section_table
+examples/c/sapi/servo/out/servo.elf:1a001d4c 0000001c T timer1CompareMatch3func
+examples/c/sapi/servo/out/servo.elf:1a001f58 00000028 T servoIsAttached
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W RTC_IRQHandler
+examples/c/sapi/servo/out/servo.elf:10000220 B _ebss
+examples/c/sapi/servo/out/servo.elf:1a001810 00000040 T TIMER0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a00056c 00000088 T Reset_Handler
+examples/c/sapi/servo/out/servo.elf:1a001930 0000007c T tickInit
+examples/c/sapi/servo/out/servo.elf:20010000 A __top_RamAHB_ETB16
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SPI_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a001d68 0000001c T timer2CompareMatch1func
+examples/c/sapi/servo/out/servo.elf:1a00094c 00000038 T Chip_I2C_SetClockRate
+examples/c/sapi/servo/out/servo.elf:1a002cf8 0000004e T __fixdfsi
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W LCD_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000e04 0000004c T Chip_Clock_EnableCrystal
+examples/c/sapi/servo/out/servo.elf:10008000 A __top_RamLoc32
+examples/c/sapi/servo/out/servo.elf:1a002458 00000276 T __aeabi_dadd
+examples/c/sapi/servo/out/servo.elf:1a00018a 0000001e T data_init
+examples/c/sapi/servo/out/servo.elf:1a002bf0 00000082 T __ledf2
+examples/c/sapi/servo/out/servo.elf:1a002758 0000006a T __aeabi_ul2d
+examples/c/sapi/servo/out/servo.elf:1a001850 00000040 T TIMER1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000928 00000024 T Chip_I2C_Init
+examples/c/sapi/servo/out/servo.elf:1a001c6e 0000000a T UART2_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000fc0 0000006c T Chip_Clock_GetMainPLLHz
+examples/c/sapi/servo/out/servo.elf:1a00321c 000000e6 T gpioPinsInit
+examples/c/sapi/servo/out/servo.elf:1a001a7c 00000090 T uartInterrupt
+examples/c/sapi/servo/out/servo.elf:1a001c54 0000001a T uartWriteByte
+examples/c/sapi/servo/out/servo.elf:1a000880 00000012 T Chip_SSP_SetClockRate
+examples/c/sapi/servo/out/servo.elf:1a002ce4 00000012 T __aeabi_dcmpgt
+examples/c/sapi/servo/out/servo.elf:1a00163a 00000016 T gpioToggle
+examples/c/sapi/servo/out/servo.elf:1a0020d4 0000000a T GPIO2_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a001654 00000120 T Timer_Init
+examples/c/sapi/servo/out/servo.elf:1a001774 00000008 T Timer_microsecondsToTicks
+examples/c/sapi/servo/out/servo.elf:1a0010a8 00000026 T Chip_Clock_GetBaseClock
+examples/c/sapi/servo/out/servo.elf:1a002cd0 00000012 T __aeabi_dcmpge
+examples/c/sapi/servo/out/servo.elf:1a001f10 00000048 T servoInitTimers
+examples/c/sapi/servo/out/servo.elf:10000118 B _bss
+examples/c/sapi/servo/out/servo.elf:1a000a60 00000032 T Chip_ADC_SetSampleRate
+examples/c/sapi/servo/out/servo.elf:1a002454 0000027a T __aeabi_dsub
+examples/c/sapi/servo/out/servo.elf:1a002758 0000006a T __floatundidf
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W I2S1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000892 0000003e T Chip_SSP_SetBitRate
+examples/c/sapi/servo/out/servo.elf:10000150 000000c8 B buffer
+examples/c/sapi/servo/out/servo.elf:1a000984 00000002 T Chip_GPIO_Init
+examples/c/sapi/servo/out/servo.elf:1a003148 00000004 T OscRateIn
+examples/c/sapi/servo/out/servo.elf:1a001bd8 0000007c T uartInit
+examples/c/sapi/servo/out/servo.elf:1a001e2c 0000004c T timer1CompareMatch0func
+examples/c/sapi/servo/out/servo.elf:10000220 ? _end_noinit
+examples/c/sapi/servo/out/servo.elf:10008000 A _vStackTop
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SSP1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0009b4 0000000c T Chip_TIMER_Init
+examples/c/sapi/servo/out/servo.elf:1a000178 T __bss_section_table_end
+examples/c/sapi/servo/out/servo.elf:1a0026f0 00000022 T __aeabi_i2d
+examples/c/sapi/servo/out/servo.elf:1a0013bc 000001ac T gpioInit
+examples/c/sapi/servo/out/servo.elf:1a000534 00000034 T bufferPop
+examples/c/sapi/servo/out/servo.elf:1a003048 00000002 W __aeabi_ldiv0
+examples/c/sapi/servo/out/servo.elf:1a002a18 000001d0 T __divdf3
+examples/c/sapi/servo/out/servo.elf:1a0027c4 00000254 T __muldf3
+examples/c/sapi/servo/out/servo.elf:1a001c84 0000001c T USB0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0017b4 00000044 T Timer_DisableCompareMatch
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SCT_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000e6c 0000001c T Chip_Clock_GetDividerDivisor
+examples/c/sapi/servo/out/servo.elf:1a0002fc T __CRP_WORD_START__
+examples/c/sapi/servo/out/servo.elf:1a003094 00000010 T memset
+examples/c/sapi/servo/out/servo.elf:1a00017c 00000002 W MemManage_Handler
+examples/c/sapi/servo/out/servo.elf:1a000388 0000012c T main
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W WDT_IRQHandler
+examples/c/sapi/servo/out/servo.elf:2000c000 A __top_RamAHB16
+examples/c/sapi/servo/out/servo.elf:1008a000 A __top_RamLoc40
+examples/c/sapi/servo/out/servo.elf:1a000182 00000002 W SVC_Handler
+examples/c/sapi/servo/out/servo.elf:1a00177c 00000038 T Timer_EnableCompareMatch
+examples/c/sapi/servo/out/servo.elf:1a002768 0000005a T __aeabi_l2d
+examples/c/sapi/servo/out/servo.elf:1a001b98 00000018 T uartTxReady
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0010dc 0000003c T Chip_Clock_EnableOpts
+examples/c/sapi/servo/out/servo.elf:1a00202c 00000028 T servoWrite
+examples/c/sapi/servo/out/servo.elf:1a000e88 000000b8 T Chip_Clock_GetClockInputHz
+examples/c/sapi/servo/out/servo.elf:1a000f40 00000080 T Chip_Clock_CalcMainPLLValue
+examples/c/sapi/servo/out/servo.elf:1a001334 00000038 T SystemInit
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000518 0000001c T bufferIsEmpty
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W QEI_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000150 T __bss_section_table
+examples/c/sapi/servo/out/servo.elf:1a002bf8 0000007a T __nedf2
+examples/c/sapi/servo/out/servo.elf:1a001568 0000006a T gpioWrite
+examples/c/sapi/servo/out/servo.elf:1a0005f4 00000002 W _fini
+examples/c/sapi/servo/out/servo.elf:1a0020e0 00000358 T atan
+examples/c/sapi/servo/out/servo.elf:10000119 00000001 B pRead
+examples/c/sapi/servo/out/servo.elf:1a0004b4 00000030 T bufferIsFull
+examples/c/sapi/servo/out/servo.elf:1a000a20 00000040 T Chip_ADC_Init
+examples/c/sapi/servo/out/servo.elf:1000021c 00000004 B g_pUsbApi
+examples/c/sapi/servo/out/servo.elf:1a0005f8 00000038 T Board_SetupMuxing
+examples/c/sapi/servo/out/servo.elf:1a001258 000000dc T Chip_UART_SetBaudFDR
+examples/c/sapi/servo/out/servo.elf:10000080 00000008 D tickRateMS
+examples/c/sapi/servo/out/servo.elf:1a001dd8 0000001c T timer3CompareMatch2func
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W ETH_IRQHandler
+examples/c/sapi/servo/out/servo.elf:10000000 ? _end_uninit_RESERVED
+examples/c/sapi/servo/out/servo.elf:1a001bc4 00000014 T uartTxWrite
+examples/c/sapi/servo/out/servo.elf:1a001e10 0000001c T valueToMicroseconds
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W CAN0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:10000000 D _data
+examples/c/sapi/servo/out/servo.elf:10000220 B _pvHeapStart
+examples/c/sapi/servo/out/servo.elf:1a000178 T __section_table_end
+examples/c/sapi/servo/out/servo.elf:1a0008d0 00000038 T Chip_SSP_Init
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GINT0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W DAC_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0007f8 00000024 T Board_Debug_Init
+examples/c/sapi/servo/out/servo.elf:1a002c94 00000012 T __aeabi_dcmpeq
+examples/c/sapi/servo/out/servo.elf:1a000354 00000014 T initializeServo
+examples/c/sapi/servo/out/servo.elf:10000118 D _edata
+examples/c/sapi/servo/out/servo.elf:1a001da0 0000001c T timer2CompareMatch3func
+examples/c/sapi/servo/out/servo.elf:1a000908 00000020 T Chip_I2C_EventHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000aa0 00000158 T Chip_SetupCoreClock
+examples/c/sapi/servo/out/servo.elf:1a0020c0 0000000a T GPIO0_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a000000 00000040 T g_pfnVectors
+examples/c/sapi/servo/out/servo.elf:1a000bf8 00000014 T SystemCoreClockUpdate
+examples/c/sapi/servo/out/servo.elf:1a001dbc 0000001c T timer3CompareMatch1func
+examples/c/sapi/servo/out/servo.elf:1a002cf8 0000004e T __aeabi_d2iz
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W DMA_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W EVRT_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1b080000 A __top_MFlashB512
+examples/c/sapi/servo/out/servo.elf:1a003048 00000002 W __aeabi_idiv0
+examples/c/sapi/servo/out/servo.elf:1a001e78 0000004c T timer2CompareMatch0func
+examples/c/sapi/servo/out/servo.elf:1a001b0c 0000008c T uartCallbackSet
+examples/c/sapi/servo/out/servo.elf:1a00017e 00000002 W BusFault_Handler
+examples/c/sapi/servo/out/servo.elf:1a001118 00000034 T Chip_Clock_Enable
+examples/c/sapi/servo/out/servo.elf:1a002c84 00000010 T __aeabi_cdcmpeq
+examples/c/sapi/servo/out/servo.elf:1a002be8 0000008a T __gedf2
+examples/c/sapi/servo/out/servo.elf:1a001c78 0000000a T UART3_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W M0APP_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0015d2 00000068 T gpioRead
+examples/c/sapi/servo/out/servo.elf:1a002714 00000042 T __aeabi_f2d
+examples/c/sapi/servo/out/servo.elf:1a001ca0 00000074 T boardInit
+examples/c/sapi/servo/out/servo.elf:1a001ec4 0000004c T timer3CompareMatch0func
+examples/c/sapi/servo/out/servo.elf:1a000040 000000d4 T g_pfnVendorVectors
+examples/c/sapi/servo/out/servo.elf:1000011a 00000001 B pWrite
+examples/c/sapi/servo/out/servo.elf:1a002454 0000027a T __subdf3
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GINT1_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a0017f8 00000018 T Timer_SetCompareMatch
+examples/c/sapi/servo/out/servo.elf:1a001d30 0000001c T timer1CompareMatch2func
+examples/c/sapi/servo/out/servo.elf:1a001918 00000018 T tickPowerSet
+examples/c/sapi/servo/out/servo.elf:1a001050 00000058 T Chip_Clock_SetBaseClock
+examples/c/sapi/servo/out/servo.elf:1a00136c 0000001c T cyclesCounterInit
+examples/c/sapi/servo/out/servo.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+examples/c/sapi/servo/out/servo.elf:1a00069c 0000000c T Board_SystemInit

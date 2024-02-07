@@ -1,5 +1,11 @@
 prueba
 CIAA_Software_1.1-Win
 FirmwareV/*
-!FirmwareV/examples/c/sapi/servo/*
+!FirmwareV/examples
+FirmwareV/examples/*
+!FirmwareV/examples/c
+FirmwareV/examples/c/*
+!FirmwareV/examples/c/sapi/
+FirmwareV/examples/c/sapi/*
+!FirmwareV/examples/c/sapi/servo/
 !FirmwareV/libs
