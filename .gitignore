@@ -10,3 +10,5 @@ FirmwareV/examples/c/*
 FirmwareV/examples/c/sapi/*
 !FirmwareV/examples/c/sapi/servo/
 !FirmwareV/libs
+FirmwareV/examples/c/sapi/servo/servo_pins.png
+FirmwareV/examples/c/sapi/servo/servo_connection.png
