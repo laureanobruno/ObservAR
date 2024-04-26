@@ -53,6 +53,7 @@ uint8_t bufferIsFull()
 	return (((pWrite + 1) % DIMF) == pRead);
 }
 
+
 uint8_t bufferIsEmpty()
 {
 	return (pRead == pWrite);
